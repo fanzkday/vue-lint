@@ -14,6 +14,8 @@ module.exports = {
     ecmaVersion: 2020,
   },
   rules: {
+    "indent": "off",
+    "@typescript-eslint/indent": ["error", 2],
     'no-console': 'off',
     'generator-star-spacing': 'off',
     'no-mixed-operators': 'off',
@@ -45,7 +47,6 @@ module.exports = {
       {
         'ignoreReadBeforeAssign': false
       }
-    ],
-    'indent': ['error', 2]
+    ]
   },
 };
