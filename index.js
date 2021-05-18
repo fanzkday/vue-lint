@@ -16,6 +16,7 @@ module.exports = {
   rules: {
     "indent": "off",
     "@typescript-eslint/indent": ["error", 2],
+    "@typescript-eslint/interface-name-prefix": ["error", { "prefixWithI": "always" }],
     'no-console': 'off',
     'generator-star-spacing': 'off',
     'no-mixed-operators': 'off',
