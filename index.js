@@ -15,8 +15,7 @@ module.exports = {
   },
   rules: {
     "indent": "off",
-    "@typescript-eslint/indent": ["error", 2],
-    "@typescript-eslint/interface-name-prefix": ["error", { "prefixWithI": "always" }],
+    "@typescript-eslint/indent": "off",
     '@typescript-eslint/no-explicit-any': ["warn", { "ignoreRestArgs": true }],
     'no-console': 'off',
     'generator-star-spacing': 'off',
