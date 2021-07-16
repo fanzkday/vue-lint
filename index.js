@@ -17,6 +17,7 @@ module.exports = {
     "indent": "off",
     "@typescript-eslint/indent": "off",
     '@typescript-eslint/no-explicit-any': ["warn", { "ignoreRestArgs": true }],
+    "@typescript-eslint/explicit-module-boundary-types": "off",
     'no-console': 'off',
     'generator-star-spacing': 'off',
     'no-mixed-operators': 'off',
